@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-image:*/
+    /*        url("../../background1.jpg");*/
+    /*background-size: revert;*/
+    /*height: 300vh;*/
+    /*margin-top: 0px;*/
+    /*font-size:18px;*/
+    /*background-repeat:repeat-x;*/
+    background-image: url("../../background1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.Back1{
+    text-align: center;
+}
+h4{
+    text-align: right;
+    padding: 10px;
+    font-family: "Roboto Light", sans-serif;
+}
+h3{
+    text-align: left;
+    padding-left: 20%;
+    margin-top: 50px;
+    font-family: "Calibri Light", sans-serif;
+    color: #f6f6f6;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 30px;
+    font-family: "Calibri Light", sans-serif;
+    color: #f6f6f6;
+}
+h5{
+    color: #8b909b;
+    font-family: "Calibri Light", sans-serif;
+    padding-top: 20px;
+}
+h6{
+    font-family: "Calibri Light", sans-serif;
+    color: red;
+}
+button:disabled {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+.AuthInputs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    /*width: 230px;*/
+    padding: 16px 20px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border-radius: 4px;;
+    border-color: #222428;
+    font-size: 20px;
+    font-family: "Calibri Light", sans-serif;
+    background-color: #303339;
+    color: #f6f6f6;
+}
+.AuthDiv{
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 700px;
+    background-color: #36393f;
+    border-radius: 20px;
+    border-color: teal;
+}
+.AuthButton{
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #7289da;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Calibri Light", sans-serif;
+    /*/margin: 4px 2px;*/
+    cursor: pointer;
+}
+.RegistrationInputs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    /*width: 230px;*/
+    padding: 16px 20px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border-radius: 4px;;
+    border-color: #222428;
+    font-size: 20px;
+    font-family: "Calibri Light", sans-serif;
+    background-color: #303339;
+    color: #f6f6f6;
+}
+.RegisterDiv{
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 400px;
+    height: 700px;
+    background-color: #36393f;
+    border-radius: 20px;
+    border-color: teal;
+}
+.RegisterButton{
+    width: fit-content;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #7289da;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Calibri Light", sans-serif;
+    /*/margin: 4px 2px;*/
+    cursor: pointer;
+}
+.current > li{
+    font-family: "Calibri Light", sans-serif;
+    color: #7289da;
+    margin: 0 0.8rem;
+    font-size: 14px;
+    position: relative;
+    list-style: none;
+}
+

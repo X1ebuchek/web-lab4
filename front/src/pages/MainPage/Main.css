@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Back {
+    background-image:
+            url("../../background1.jpg");
+    background-size: cover;
+    height: 300vh;
+    margin-top: 0px;
+    font-size:16px;
+    background-repeat:no-repeat;
+}
+select{
+    margin-left: 74%;
+    width: 230px;
+    padding: 16px 20px;
+    /*border: none;*/
+    border-radius: 4px;
+    border-color: teal;
+    font-size: 20px;
+    font-family: "Roboto Light", sans-serif;
+    /*background-color: #f1f1f1;*/
+}
+.InputForm{
+    margin-left: 74%;
+    /*width: 15%;*/
+    width: 230px;
+    padding: 16px 20px;
+    /*margin: 8px 0;*/
+    box-sizing: border-box;
+    border-radius: 4px;;
+    border-color: teal;
+    font-size: 20px;
+    font-family: "Roboto Light", sans-serif;
+}
+h2{
+    font-family: "Roboto Light", sans-serif;
+    margin-left: 74%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*button{*/
+/*    margin-left: 1100px;*/
+/*    margin-top: 20px;*/
+/*    padding: 8px 16px;*/
+/*    border-radius: 10px;*/
+/*    font-size: 20px;*/
+/*    border-color: teal;*/
+/*}*/
+/*button {*/
+/*    width: 150px;*/
+/*    margin-left: 1140px;*/
+/*    margin-top: 20px;*/
+/*    border-radius: 10px;*/
+/*    background-color: #4CAF50; !* Green *!*/
+/*    border: none;*/
+/*    color: white;*/
+/*    padding: 16px 32px;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    display: inline-block;*/
+/*    font-size: 16px;*/
+/*    font-family: "Roboto Light", sans-serif;*/
+/*    cursor: pointer;*/
+/*}*/
+/*button:hover {*/
+/*    background-color: #3e8e41;*/
+/*}*/
+/*button:active {*/
+/*    background-color: #3e8e41;*/
+/*    box-shadow: 0 2px #666;*/
+/*    transform: translateY(3px);*/
+/*}*/
+/*button--disabled {*/
+/*    background-color: #ccc;*/
+/*    color: #666;*/
+/*    cursor: not-allowed;*/
+/*}*/
+canvas{
+    margin-left: 5vw;
+    margin-top: -40vh;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-color: teal;
+    border-radius: 5px;;
+}
+table{
+    font-family: "Roboto Light", sans-serif;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 70px;
+}
+.headTable{
+    font-weight: bold;
+}
+tr{
+    height: 70px;
+}
+table td{
+    width: 100px;
+    text-align: center;
+}
+.tableDiv{
+
+}
+button{
+    width: 150px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Roboto Light", sans-serif;
+    /*/margin: 4px 2px;*/
+    cursor: pointer;
+}
+
+
